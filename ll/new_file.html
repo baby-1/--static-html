@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		/*
+		   返回值可以是任意的数据类型
+		     也可以是一个对象
+		  
+		*/
+	
+		<script type="text/jscript">
+			for(var i=0; i<5; i++){
+				if(i == 2){
+					
+					//break用于跳出当前循环
+					//continue 用于跳出当次循环，继续执行下一次循环，知道循环结束；
+					//使用retuen可以结束整个函数；
+					
+				}
+				console.log(i);
+			}
+			//console.log(i);i等于2时退出for循环此时i存储的是2；
+			function fun2(){
+				return 10;
+			}
+			var a = fun2();
+			console.log("a = "+ a);
+			
+				
+			function fun5(){
+					
+				function fun6(){
+					alert("我是fun6")
+				}
+			//  fun6();
+			//return fun6;//这是返回的一个“机器”
+			//return fun6()//这才是返回一个功能；
+			return fun6();
+			}
+			 fun5();//函数内部无限去声明；
+			 var p = fun5()
+			 console.log(p);
+			
+			
+				
+		</script>
+	</body>
+</html>

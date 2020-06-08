@@ -1,0 +1,89 @@
+	
+body,p,h1,h2,h3,h4,{
+	margin: 0;
+	
+}
+	
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+img{
+	border: none;
+	vertical-align: middle; //垂直方向上跟文字之间有一个对齐的方式;底部有个缝隙,空白;通过这个演示就可以搞定;
+	
+}
+	
+a{
+	text-decoration: none;
+	color: #3c3c3c;
+}
+i{
+	font-style: nomar;
+}
+input,button{
+	margin: 0;
+	padding: 0;
+}
+button{
+	outline: none;//有的表单上有蓝色的框,这是获取焦点的一种形式,这是浏览器的一个帮助,但是我们用不到;
+}
+
+	
+body{
+	font: 12px/1.5 tahoma,arial,'Hiragino Sans GB'，'\5b8b\4f53',sans-serif;//font-family: SimSun;
+	color: #3C3C3C;
+	background-color: #f4f4f4;
+	
+}
+	
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+	
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+
+.layer{
+	width: 1190px;
+	margin: 0 auto;
+}
+.c4{
+	color: #f40;
+}
+
+	
+.c5{
+	color: #f50;
+}
+.mr5{
+	margin-right: 5px;
+}
+.mr7{
+	margin-right: 7px;
+}
+.mt10{
+	margin-top: 10px;
+}
+
+.mr10{
+	margin-right: 10px;
+}
+	
+
+	
+
+
+
+
+
+

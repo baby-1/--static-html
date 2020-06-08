@@ -1,0 +1,100 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7445",
+      "name": "右三角",
+      "font_class": "yousanjiao",
+      "unicode": "f0005",
+      "unicode_decimal": 983045
+    },
+    {
+      "icon_id": "2649879",
+      "name": "菜单",
+      "font_class": "menu",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "2680900",
+      "name": "照相",
+      "font_class": "zhaoxiang",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "4807007",
+      "name": "左键头",
+      "font_class": "zuojiantou",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "4866363",
+      "name": "星星",
+      "font_class": "xingxing",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "5023262",
+      "name": "放大镜",
+      "font_class": "fangdajing",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "5141771",
+      "name": "引号",
+      "font_class": "yinhao",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "5631968",
+      "name": "购物 (1)",
+      "font_class": "gouwu",
+      "unicode": "e502",
+      "unicode_decimal": 58626
+    },
+    {
+      "icon_id": "7222743",
+      "name": "下箭头",
+      "font_class": "down",
+      "unicode": "e503",
+      "unicode_decimal": 58627
+    },
+    {
+      "icon_id": "9223193",
+      "name": "淘宝",
+      "font_class": "taobao",
+      "unicode": "e506",
+      "unicode_decimal": 58630
+    },
+    {
+      "icon_id": "11935947",
+      "name": "二维码",
+      "font_class": "qrcode",
+      "unicode": "e505",
+      "unicode_decimal": 58629
+    },
+    {
+      "icon_id": "13527704",
+      "name": "脸 笑脸 满意-3",
+      "font_class": "lianxiaolianmanyi-",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "14088794",
+      "name": "关  闭",
+      "font_class": "close",
+      "unicode": "e504",
+      "unicode_decimal": 58628
+    }
+  ]
+}

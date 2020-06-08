@@ -1,0 +1,143 @@
+/*
+   @规则：
+       @charset   设置样式表的编码
+	   @import    导入其它的样式文件
+	   @meida     媒体查询，会查询你是用什么打开的；
+*/
+@import 'rest.css';
+@font-face {
+  font-family: 'iconfont';    /*  */
+  src: url('fontt/iconfont.eot');
+  src: url('fontt/iconfont.eot?#iefix') format('embedded-opentype'),
+      url('fontt/iconfont.woff2') format('woff2'),  /* 网页的字体，专门为网页开发制作的字体 iE678不支持*/
+      url('fontt/iconfont.woff') format('woff'),
+      url('fontt/iconfont.ttf') format('truetype'),  /* 文件比较大 iE*/
+      url('fontt/iconfont.svg#iconfont') format('svg');   /* 可以画任意图像,图形的技术,放大之后也不会失真; */
+	
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;   /* 非标准样式*/
+  -moz-osx-font-smoothing: grayscale;
+}
+/* 头部信息 */
+#headMessage li{
+	float: left;
+	line-height: 35px;
+	padding: 0 6px;
+	/* font-size: 50px; 空格由你的字体大小所决定的*/
+	
+	
+}
+
+#headMessage a{
+	color: #6c6c6c;
+	font-size: 12px;
+} 
+#headMessage a:hover{
+	color: #f40;
+}
+#headMessage a.login{
+	color: #f22e00;
+}
+#headMessage span .arrow{
+	font-size: 12px;
+	margin-left: 7px;
+}
+#headMessage span {
+	font-size: 12px;
+}
+#headMessage a:hover{
+	color: #f40;
+}
+#headMessage  span.arrow{
+	margin-left: 7px;
+}
+	
+#headMessage li strong{
+	font-size: 12px;
+	color: #f22e00;
+}
+#headMessage li span.store{
+	color: #9c9c9c;
+}
+#headMessage li line{
+	font-size: 12px;
+	color: #ddd;
+	padding: 0 5px;
+	
+}
+#headad {
+	background-color: #f12f04;
+}
+	
+#headad .xy{
+	display: block;
+	padding: 10px 10px 10px 15px;
+}
+	
+#headad .xy img{
+	width: 80px;
+	height: 80px;
+}
+#headad li{
+	float: left;
+	width: 209px;
+	height: 75px;
+	margin-right: 10px;
+	padding: 12px 15px 0 15px;
+	/* box-sizing: border-box; */
+	/*
+	盒模型
+	  1、一种是标准盒模型
+	         总宽度=border（左右）+width+padding（左右）
+			 总高度=border（上下）+height+padding（上下）
+	  2、IE盒模型（怪异盒模型）
+	         总宽度=width；
+			 总高度=height；
+	        
+	  
+	*/
+}
+	
+#headad ul{
+	padding: 13px;
+}
+	
+#headad li h3 {
+	font-size: 20px;
+	line-height: 10px;
+}
+#headad li p {
+	font-size: 14px;
+	line-height: 20px;
+}
+#headad li a img {
+	width: 52px;
+	height: 52px;
+}
+	
+#headad li a {
+	color: #fff;
+}
+
+#headad li.item1{
+	background: url(img/劫n-r215mw.png)no-repeat;
+	
+}
+#headad li.item2{
+	background: url(img/劫n-r215mw.png)no-repeat;
+	
+}
+#headad li.item3{
+	background: url(img/劫n-r215mw.png)no-repeat;
+	margin-right: 0;/* 图片就上去了 */
+	
+}
+	
+
+
+
+
